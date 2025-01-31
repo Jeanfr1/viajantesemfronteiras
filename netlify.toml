@@ -1,0 +1,8 @@
+# Remove the redirect rule to allow for dynamic routing
+
+  command = "npm run build"
+  publish = ".next"
+
+[dev]
+  command = "npm run dev"
+  port = 3000
