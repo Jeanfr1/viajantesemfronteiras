@@ -7,17 +7,16 @@ function getImagePaths() {
   // This is a placeholder array until you add your images
   // Replace these with your actual image paths once you add them
   const imagePaths = [
-    // Until you add your images, we'll use these placeholders
-    "/images/moments/americas/Cópia de Post Retrato para Instagram Corporativo Simples Azul e Preto (12).png",
-    "/images/moments/americas/IMG_1770.jpg",
-    "/images/moments/americas/IMG_2861.jpeg",
-    "/images/moments/americas/IMG_4391.jpeg",
-    "/images/moments/americas/IMG_5948.jpg",
-    "/images/moments/asia/asia.jpg",
-    "/images/moments/asia/asia2.jpg", // Added
-    "/images/moments/europe/image00027.jpg", // Added
-    "/images/moments/europe/IMG_0314.jpg",
-    "/images/moments/europe/IMG_3633.JPG",
+    "/images/gallery/americas/Cópia de Post Retrato para Instagram Corporativo Simples Azul e Preto (12).png",
+    "/images/gallery/americas/IMG_1770.jpg",
+    "/images/gallery/americas/IMG_2861.jpeg",
+    "/images/gallery/americas/IMG_4391.jpeg",
+    "/images/gallery/americas/IMG_5948.jpg",
+    "/images/gallery/asia/asia.jpg",
+    "/images/gallery/asia/asia2.jpg",
+    "/images/gallery/europe/image00027.jpg",
+    "/images/gallery/europe/IMG_0314.jpg",
+    "/images/gallery/europe/IMG_3633.JPG",
   ];
 
   return imagePaths;
