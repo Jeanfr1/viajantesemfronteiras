@@ -47,14 +47,15 @@ export const ParallaxScrollSecond = ({
           className="grid gap-4"
         >
           {firstPart.map((image, idx) => (
-            <div key={idx} className="relative h-[350px] rounded-lg overflow-hidden">
-<Image
+            <div key={idx} className="relative h-[40vh] md:h-[350px] rounded-lg overflow-hidden">
+              <Image
                 src={image}
                 alt="thumbnail"
                 className="absolute inset-0 w-full h-full object-cover"
                 width={500}
                 height={500}
-/>
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
             </div>
           ))}
         </motion.div>
@@ -63,11 +64,14 @@ export const ParallaxScrollSecond = ({
           className="grid gap-4"
         >
           {secondPart.map((image, idx) => (
-            <div key={idx} className="relative h-[350px] rounded-lg overflow-hidden">
-              <img
+            <div key={idx} className="relative h-[40vh] md:h-[350px] rounded-lg overflow-hidden">
+              <Image
                 src={image}
                 alt="thumbnail"
                 className="absolute inset-0 w-full h-full object-cover"
+                width={500}
+                height={500}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
             </div>
           ))}
@@ -77,11 +81,14 @@ export const ParallaxScrollSecond = ({
           className="grid gap-4"
         >
           {thirdPart.map((image, idx) => (
-            <div key={idx} className="relative h-[350px] rounded-lg overflow-hidden">
-              <img
+            <div key={idx} className="relative h-[40vh] md:h-[350px] rounded-lg overflow-hidden">
+              <Image
                 src={image}
                 alt="thumbnail"
                 className="absolute inset-0 w-full h-full object-cover"
+                width={500}
+                height={500}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
             </div>
           ))}
