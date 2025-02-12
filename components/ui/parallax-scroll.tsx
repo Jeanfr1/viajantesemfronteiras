@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image"; // Ensure Image is imported from next/image
+import Image from "next/image";
 
 export const ParallaxScrollSecond = ({
   images,
@@ -31,6 +31,7 @@ export const ParallaxScrollSecond = ({
     <div
       className={`relative min-h-[150vh] ${className}`}
       ref={gridRef}
+      style={{ zIndex: 10 }}
     >
       <div
         className="grid grid-cols-1 md:grid-cols-3 gap-4 items-start mx-auto max-w-7xl px-4"
